@@ -26,12 +26,14 @@ print("soma " + str(resultado_1))
 print("subitracao " + str(resultado_2))
 print("multiplicacao " + str(resultado_3))
 print("divisao " + str(resultado_4))
+print(" {}".format(resultado_4))
 
 # type cast : ato de transformar um tipo de variavel em outro. 
 # str: texto; float/doble: numero fracionado; int: numero inteiro.
-# juntar texto, listar ou objetos se chama concatenação
-# def = comando para criar função
+# juntar texto, listar ou objetos se chama concatenacao
+# def = comando para criar funcao
 # print = "escrever na tela"
 # return = retornar ao comando ou variavel indicada.
 # input = entrada dinamica: se adapita ao tipo de variavel indicada.
 # output = print
+# format = referenciar texto para chave.
