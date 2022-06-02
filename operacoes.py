@@ -18,7 +18,7 @@ def divisao(n1, n2):
 num_1 = input("Escreva o primeiro numero: ")
 num_2 = input("Escreva o segundo numero: ")
 
-resultado_1 = soma(n1 = num_1, n2 = num_2)
+resultado_1 = soma(num_1, num_2)
 resultado_2 = subitracao(n1 = num_1, n2 = num_2)
 resultado_3 = multiplicacao(n1 = num_1, n2 = num_2)
 resultado_4 = divisao(n1 = num_1, n2 = num_2)
