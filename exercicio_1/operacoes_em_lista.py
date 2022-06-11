@@ -21,9 +21,13 @@ def concatenate_all_values(list):
     
     print(complete_string)
 
+def sort_list(list):
+    print(list.sort())
+
 list_of_strings = ["oi", "boi", "sol", "oi"]
 value_to_use = "oi"
 
 find_similar_in_list(list_of_strings, value_to_use)
 remove_one_ocurrence_from_list(list_of_strings, value_to_use)
 concatenate_all_values(list_of_strings)
+sort_list(list_of_strings)
