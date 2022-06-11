@@ -10,6 +10,14 @@ def find_similar_in_list(list, value_to_search):
     
     print("{value} appears {found} times in list".format(value=value_to_search, found=values_found))
 
+def find_distincts_in_list(list):
+    sample_set = set(list)
+    # https://medium.com/ensina-ai/entenda-o-que-e-e-quais-as-diferencas-entre-listas-sets-tuplas-e-dicionarios-no-python-aa927ed64796
+    # nesse link explica mais o que aconteceu
+    # Em resumo uma lista é uma lista de valores e nao importa o que tem dentro
+    # Um set tem contem apenas valores distintos, assim remove as duplicadas em na lista
+    print("Valores distintos na lista: {}".format(sample_set))
+
 def list_of_ocurrences(list, value_to_find):
     # Retorna todos valores iguais a value_to_find
     list_of_desired_values = []
@@ -39,6 +47,7 @@ list_of_strings = ["oi", "boi", "sol", "oi"]
 value_to_use = "oi"
 
 find_similar_in_list(list_of_strings, value_to_use)
+find_distincts_in_list(list_of_strings)
 list_of_ocurrences(list_of_strings, value_to_use)
 concatenate_all_values(list_of_strings)
 sort_list(list_of_strings)
